@@ -1,0 +1,25 @@
+{
+  "name": "resort-react-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipat1995/resort-react-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "3.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pipat1995/resort-react-nodejs/issues"
+  },
+  "homepage": "https://github.com/pipat1995/resort-react-nodejs#readme"
+}
